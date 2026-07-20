@@ -1,0 +1,21 @@
+theme: "just-the-docs"
+title: "Building Systems + Data Centre Development"
+description: "Engineering documentation for building systems and data centre operations."
+
+just_the_docs:
+  collections:
+    systems:
+      output: true
+      permalink: /systems/:name
+    labs:
+      output: true
+      permalink: /labs/:name
+    internship:
+      output: true
+      permalink: /internship/:name
+    diagrams:
+      output: true
+      permalink: /diagrams/:name
+    SOPs:
+      output: true
+      permalink: /SOPs/:name
