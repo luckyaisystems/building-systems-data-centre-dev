@@ -1,4 +1,4 @@
-theme: "just-the-docs"
+remote_theme: just-the-docs/just-the-docs
 title: "Building Systems + Data Centre Development"
 description: "Engineering documentation for building systems and data centre operations."
 
