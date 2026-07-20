@@ -1,21 +1,34 @@
 remote_theme: just-the-docs/just-the-docs
+
 title: "Building Systems + Data Centre Development"
 description: "Engineering documentation for building systems and data centre operations."
+
+collections:
+  systems:
+    output: true
+    permalink: /systems/:name/
+  labs:
+    output: true
+    permalink: /labs/:name/
+  internship:
+    output: true
+    permalink: /internship/:name/
+  diagrams:
+    output: true
+    permalink: /diagrams/:name/
+  sops:
+    output: true
+    permalink: /sops/:name/
 
 just_the_docs:
   collections:
     systems:
-      output: true
-      permalink: /systems/:name
+      name: Systems
     labs:
-      output: true
-      permalink: /labs/:name
+      name: Labs
     internship:
-      output: true
-      permalink: /internship/:name
+      name: Internship
     diagrams:
-      output: true
-      permalink: /diagrams/:name
-    SOPs:
-      output: true
-      permalink: /SOPs/:name
+      name: Diagrams
+    sops:
+      name: SOPs
