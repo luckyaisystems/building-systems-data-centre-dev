@@ -1,101 +1,76 @@
 Internal Ladder Map — Equinix Toronto
-A structured map of the operational, engineering, and leadership ladders observed across Equinix Toronto IBX sites.
-All future internship observations will reference this ladder to identify where each experience fits.
+
+A structured map of the operational, engineering, and leadership ladders observed across Equinix Toronto IBX sites. All future internship observations will reference this ladder to identify where each experience fits.
 
 Operations
 Critical Facilities
-Facility Technician
-
-Senior Technician
-
-Critical Facilities Engineer
-
-Senior Engineer
-
-IBX Manager
-
+Level	Role
+1	Facility Technician
+2	Senior Technician
+3	Critical Facilities Engineer
+4	Senior Engineer
+5	IBX Manager
 Customer Operations
-Customer Ops Technician
-
-Customer Deployment Specialist
-
-Cross‑Connect Specialist
-
-Customer Success Engineer
-
+Level	Role
+1	Customer Ops Technician
+2	Customer Deployment Specialist
+3	Cross-Connect Specialist
+4	Customer Success Engineer
 Operations Engineering
 Mechanical
-Mechanical Engineer
-
-Senior Mechanical Engineer
-
-Staff Mechanical Engineer
-
+Level	Role
+1	Mechanical Engineer
+2	Senior Mechanical Engineer
+3	Staff Mechanical Engineer
 Electrical
-Electrical Engineer
-
-Senior Electrical Engineer
-
-Staff Electrical Engineer
-
+Level	Role
+1	Electrical Engineer
+2	Senior Electrical Engineer
+3	Staff Electrical Engineer
 Controls
-Controls Engineer
-
-Staff Controls Engineer
-
-Senior Controls Engineer
-
+Level	Role
+1	Controls Engineer
+2	Staff Controls Engineer
+3	Senior Controls Engineer
 Design & Construction
-Project Engineer
-
-Construction Manager
-
-Senior Manager, Design & Construction
-
-Director, Global Design & Construction Data Analytics
-
-Digital Infrastructure
-Infrastructure Analyst
-
-Systems Engineer
-
-Senior Systems Engineer
-
+Level	Role
+1	Project Engineer
+2	Construction Manager
+3	Senior Manager, Design & Construction
+4	Director, Global Design & Construction
+Data Analytics & Digital Infrastructure
+Level	Role
+1	Infrastructure Analyst
+2	Systems Engineer
+3	Senior Systems Engineer
 Procurement & Supply Chain
-Program Manager, Power & Cooling Equipment
-
-Senior Manager, Supply Chain
-
-Director, Procurement
-
+Level	Role
+1	Program Manager, Power & Cooling Equipment
+2	Senior Manager, Supply Chain
+3	Director, Procurement
 Leadership
-IBX Manager
-
-Regional Manager
-
-Director
-
-Senior Director
-
-VP, Operations Engineering
-
+Level	Role
+1	IBX Manager
+2	Regional Manager
+3	Director
+4	Senior Director
+5	VP, Operations Engineering
 How This Ladder Will Be Used
+
 Every journal entry will map observations to one or more of these ladders:
 
-Systems Exposure → which engineering discipline the system belongs to
-
-Operational Exposure → which part of the IBX workflow it touches
-
-Career Intelligence → which ladder the skill or task aligns with
-
-Personal Fit → which areas resonate most over time
-
-This creates a long‑term clarity loop:
-
+Dimension	Purpose
+Systems Exposure	Which engineering discipline the system belongs to
+Operational Exposure	Which part of the IBX workflow it touches
+Career Intelligence	Which ladder the skill or task aligns with
+Personal Fit	Which areas resonate most over time
+The Clarity Loop
 Observation
-↓
+    ↓
 Classification (ladder)
-↓
+    ↓
 Pattern Recognition
-↓
+    ↓
 Career Direction
+
+This creates a long-term clarity loop that builds career direction through accumulated observation rather than guesswork.
