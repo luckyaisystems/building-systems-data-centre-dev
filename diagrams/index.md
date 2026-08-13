@@ -10,3 +10,31 @@ Diagrams in this directory are used to illustrate equipment layouts, power paths
 - Electrical Single-Line Diagrams — distribution paths, UPS, switchgear  
 - Data Centre Topology — rack layouts, cooling zones, power redundancy  
 - Control System Blocks — BMS components, sensor networks, control loops
+
+                    REAL WORLD
+                        │
+                        ▼
+                  OBSERVATION
+                        │
+                        ▼
+               SITE NOTES COMPILER
+                        │
+                        ▼
+             PATTERN / CASE EXTRACTION
+                        │
+                        ▼
+          ENGINEERING KNOWLEDGE ARCHITECTURE
+                        │
+              ┌─────────┴─────────┐
+              ▼                   ▼
+         AI RETRIEVAL         HUMAN VERIFY
+              │                   │
+              └─────────┬─────────┘
+                        ▼
+                  CAPABILITY
+                        │
+                        ▼
+              EVIDENCE / ARTIFACT
+                        │
+                        ▼
+             READINESS / DECISION
