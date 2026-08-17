@@ -38,3 +38,25 @@ Diagrams in this directory are used to illustrate equipment layouts, power paths
                         │
                         ▼
              READINESS / DECISION
+
+                    PROFESSIONAL CAPABILITY
+                            ▲
+                            │
+                   Evidence / Readiness
+                            │
+                            │
+                 Operational Experience
+                      ┌─────┴─────┐
+                      │  Equinix  │
+                      └─────┬─────┘
+                            │
+                     Site Observation
+                            │
+                 ┌──────────┴──────────┐
+                 │                     │
+          Knowledge Architecture   Communication OS
+                 │                     │
+                 └──────────┬──────────┘
+                            │
+                       AI + Systems
+                         Thinking
