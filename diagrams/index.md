@@ -61,6 +61,7 @@ Diagrams in this directory are used to illustrate equipment layouts, power paths
                        AI + Systems
                          Thinking
 
+![image](https://raw.githubusercontent.com/luckyaisystems/building-systems-data-centre-dev/refs/heads/main/image%20(1).jpg)
 
   # Data Centre Power Path — Step-by-Step Guide
 
