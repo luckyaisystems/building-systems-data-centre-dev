@@ -130,3 +130,41 @@ Utility Grid (13.8 kV)
                    Load (customer servers)
 ```
 
+# ATS vs. ASTS: Where Each Sits and Why
+
+**System:** Electrical power distribution
+**Source:** Whiteboard walkthrough with a lead engineer during my internship, plus my own follow-up reasoning
+**Note type:** Personal learning note. Generic concepts only, no site-specific or confidential details.
+
+## The two devices
+
+| Device | How it switches | Where it sits (in the drawing) |
+| --- | --- | --- |
+| **ATS** (automatic transfer switch) | Mechanically | Upstream, inside the MSB, where the utility and generator sources come together |
+| **ASTS** (automatic static transfer switch) | Electronically (solid-state), much faster | Downstream, after the UPS, just before the load |
+
+## The power path I was shown
+
+- Two independent paths (**A side** and **R side**), each with its own source, MSB and UPS.
+- The **ATS** handles source transfer upstream, inside each path.
+- The **ASTS** is where the two paths merge into one feed to the load.
+
+## Why the ASTS sits downstream
+
+- It is the **last point where there are still two independent sources**. After it there is only one path, so there is nothing left to switch between. That is more precise than "the last point before the customer."
+- The farther downstream it sits, the more failures it covers. A failure on either path upstream can be handled by one fast electronic transfer, so the load never sees the interruption.
+
+## Tradeoff to remember
+
+The ASTS is itself a single point in the path. This is why devices like it are built simply and are typically paired with a **bypass**, so they can be serviced without dropping the load. *(My understanding from general reasoning, not something the engineer said. Worth verifying.)*
+
+## Key shift for me
+
+> Before: recognizing individual components. Now: seeing how components connect into one system, and asking *why* each one sits where it does.
+
+## Related ideas
+
+- Failure categories from my *System-Failure-Audit*: **input, decision, execution**. A transfer switch failing to transfer is an execution failure.
+- Reliability is not only equipment and backups. It also depends on **maintenance, monitoring, procedures and people**.
+
+
