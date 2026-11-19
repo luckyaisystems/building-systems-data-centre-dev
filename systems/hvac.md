@@ -45,55 +45,85 @@
 | 39°C              | 6,983                          | 6.983                           |
 | 40°C              | 7,367                          | 7.367                           |
 
-# Worked Example: Using the Saturation Pressure Table
+# Assignment 7 — Psychrometrics (Questions 2–4)
 
-## Question
+## Question 2 — Room RH and comfort range (2 marks)
+A room is 25 m × 15 m × 5 m. If there is 20 kg of moisture in the air and
+the temperature is 21°C, what is the RH? Is the room within the "comfort
+range" for most people?
+
+### Given
+- Room dimensions: 25 m × 15 m × 5 m
+- Room volume: 1,875 m³
+- Moisture in air: 20 kg
+- Air temperature: 21°C
+
+### Solution
+- Moisture concentration = 20 kg / 1,875 m³ = 0.01067 kg/m³
+- pv = ρv × Rv × T = 0.01067 × 461.5 × 294.15 = 1,448 Pa
+- RH = pv / Ps × 100 = 1,448 / 2,481 × 100 = 58.4%
+
+### Answer
+At 21°C, the RH is 58% (Ps at 21°C = 2,481 Pa), which is within the
+"comfort range" for most people.
+
+## Question 3 — Moisture in 1,000 kg of air, wet bulb, and RH adjustment (2 marks)
 If the temperature of an air container is 21°C and the RH is 75%, how much
 moisture is there in 1,000 kg of air? What is the wet bulb temperature?
 How much must the temperature be adjusted to achieve an RH of 45%?
 
-## Given
+### Given
 - Air temperature: 21°C
 - Relative humidity: 75%
 - Mass of air: 1,000 kg
-- Atmospheric pressure: 101.325 kPa = 101,325 Pa
+- Atmospheric pressure: 101,325 Pa
 
-## Step 1 — Look up Ps at 21°C in the table
-From the table row for 21°C:  Ps = 2,481 Pa
+### Solution
+- pv = RH × Ps = 0.75 × 2,481 = 1,861 Pa
+- W = 0.62198 × pv / (P − pv) = 0.62198 × 1,861 / (101,325 − 1,861)
+  = 0.01164 kg water / kg dry air
+- Moisture in 1,000 kg of air = 1,000 × 0.01164 = 11.6 kg
+- Wet-bulb temperature (psychrometric chart): 18°C
+- Temperature needed for 45% RH: moisture content is unchanged, so pv
+  stays at 1,861 Pa. Ps = pv / 0.45 = 1,861 / 0.45 = 4,136 Pa
 
-## Step 2 — Find the vapour partial pressure
-pv = RH × Ps = 0.75 × 2,481 = 1,861 Pa
-
-## Step 3 — Find the humidity ratio
-W = 0.62198 × pv / (P − pv)
-W = 0.62198 × 1,861 / (101,325 − 1,861)
-W = 0.01164 kg water / kg dry air
-
-## Step 4 — Moisture in 1,000 kg of air
-mw = 1,000 × 0.01164 = 11.6 kg
-
-## Step 5 — Wet-bulb temperature (from psychrometric chart)
-At 21°C dry bulb / 75% RH, the chart gives  Twb ≈ 15.5°C
-
-## Step 6 — Temperature needed for 45% RH
-Moisture content is unchanged, so pv stays at 1,861 Pa.
-For 45% RH:  Ps = pv / 0.45 = 1,861 / 0.45 = 4,136 Pa
-
-### Using the table: interpolation between rows
+### Interpolation between table rows
 4,136 Pa falls between two table rows:
 - 29°C → 3,997 Pa
 - 30°C → 4,234 Pa
 
-1. Total gap between rows:      4,234 − 3,997 = 237 Pa
-2. Distance past 29°C:          4,136 − 3,997 = 139 Pa
-3. Fraction of the way across:  139 / 237 ≈ 0.59
-4. Temperature:                 29 + 0.59 ≈ 29.6°C
+1. Total gap between rows: 4,234 − 3,997 = 237 Pa
+2. Distance past 29°C: 4,136 − 3,997 = 139 Pa
+3. Fraction of the way across: 139 / 237 ≈ 0.59
+4. Temperature: 29 + 0.59 ≈ 29.6°C
 
-## Final Answers
+### Answer
 - Moisture in 1,000 kg of air: **11.6 kg**
-- Wet-bulb temperature: **15.5°C**
+- Wet-bulb temperature: **18°C**
 - Temperature for 45% RH: **29.6°C** (interpolated)
 - Temperature adjustment: 29.6 − 21 = **+8.6°C increase**
 
-> Note: If rounding to the nearest whole table row instead of interpolating,
-> 30°C gives an adjustment of 30 − 21 = 9°C.
+## Question 4 — Wet bulb and moisture removal (2 marks)
+If the temperature of a room is 20°C and the current RH is 65%, what is
+the wet bulb temperature? How much moisture must be removed from the air
+to lower the RH to 50%?
+
+### Given
+- Air temperature: 20°C
+- Current RH: 65%
+- Target RH: 50%
+- Atmospheric pressure: 101,325 Pa
+- Ps at 20°C = 2,339 Pa
+
+### Solution
+- Current moisture content: pv = RH × Ps = 0.65 × 2,339 = 1,520 Pa
+- W = 0.62198 × 1,520 / (101,325 − 1,520) = 0.00947 kg water / kg dry air
+- Target moisture content at 50% RH (temperature unchanged):
+  pv new = 0.50 × 2,339 = 1,169 Pa
+- W new = 0.62198 × 1,169 / (101,325 − 1,169) = 0.00719 kg water / kg dry air
+- Moisture to remove = 0.00947 − 0.00719 = 0.00228 kg water per kg of dry air
+
+### Answer
+- Wet-bulb temperature (psychrometric chart): **16°C**
+- Moisture to remove: **0.00228 kg water per kg of dry air** (about 2.3 g
+  per kg of dry air)
