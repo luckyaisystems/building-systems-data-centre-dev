@@ -45,9 +45,9 @@
 | 39°C              | 6,983                          | 6.983                           |
 | 40°C              | 7,367                          | 7.367                           |
 
-# Assignment 7 — Psychrometrics (Questions 2–4)
+# Assignment 7 — Psychrometrics
 
-## Question 2 — Room RH and comfort range (2 marks)
+## Question 2 — Room RH and comfort range
 A room is 25 m × 15 m × 5 m. If there is 20 kg of moisture in the air and
 the temperature is 21°C, what is the RH? Is the room within the "comfort
 range" for most people?
@@ -67,7 +67,7 @@ range" for most people?
 At 21°C, the RH is 58% (Ps at 21°C = 2,481 Pa), which is within the
 "comfort range" for most people.
 
-## Question 3 — Moisture in 1,000 kg of air, wet bulb, and RH adjustment (2 marks)
+## Question 3 — Moisture in 1,000 kg of air, wet bulb, and RH adjustment
 If the temperature of an air container is 21°C and the RH is 75%, how much
 moisture is there in 1,000 kg of air? What is the wet bulb temperature?
 How much must the temperature be adjusted to achieve an RH of 45%?
@@ -103,7 +103,7 @@ How much must the temperature be adjusted to achieve an RH of 45%?
 - Temperature for 45% RH: **29.6°C** (interpolated)
 - Temperature adjustment: 29.6 − 21 = **+8.6°C increase**
 
-## Question 4 — Wet bulb and moisture removal (2 marks)
+## Question 4 — Wet bulb and moisture removal
 If the temperature of a room is 20°C and the current RH is 65%, what is
 the wet bulb temperature? How much moisture must be removed from the air
 to lower the RH to 50%?
